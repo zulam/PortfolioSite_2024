@@ -12,12 +12,12 @@ code {
     monospace;
 }
 
-.icon {
+.link-icon {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
 }
 
-.icon:hover {
+.link-icon:hover {
   transform: scale(1.2);
 }
 

@@ -56,22 +56,22 @@ function App() {
       <Row>
         <Col className='d-flex justify-content-start'>
           <a className='link' href="https://www.linkedin.com/in/zack-ulam-605220132/" target="_blank" >
-            <FontAwesomeIcon className='icon fa-3x mx-2 mt-2' icon={faLinkedin} href='' />
+            <FontAwesomeIcon className='link-icon fa-3x mx-2 mt-2' icon={faLinkedin} href='' />
           </a>
           <a className='link' href="https://github.com/zulam" target="_blank" >
-            <FontAwesomeIcon className='icon fa-3x mx-2 mt-2' icon={faGithub} href='https://github.com/zulam' />
+            <FontAwesomeIcon className='link-icon fa-3x mx-2 mt-2' icon={faGithub} href='https://github.com/zulam' />
           </a>
         </Col>
       </Row>
-      <Row>
-        <Col md={6} style={{ fontSize: '8vw', textAlign: 'left', fontFamily: 'Courier New' }}>
+      <Row className='pt-5'>
+        <Col md={6} style={{ fontSize: '8vw', textAlign: 'left', fontFamily: 'Courier New', lineHeight: '14vh' }}>
           Zack Ulam <br />
           <span style={{ color: 'red' }}>Full Stack</span><br />
           Developer
         </Col>
         <Col md={1}></Col>
         <Col md={5}>
-          <div className='mt-5 pt-5 ml-1 d-flex justify-content-start'>
+          <div className='ml-1 d-flex justify-content-start'>
             {images[imgIdx]}
           </div>
           <p className='mt-4' style={{ fontSize: '3vw', fontFamily: 'Courier New', textAlign: 'left' }}>
